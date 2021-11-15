@@ -1,0 +1,86 @@
+/* PC */
+@media (min-width: 64em){
+    
+}
+
+/* Tablet and mobile */
+@media (max-width :  63.9375em){
+.place-buy-btn {
+    padding: 15px 16px !important;
+ }
+ .martintop{
+    padding: 15px 16px !important;
+ }
+.social-list{
+    font-size: 48px !important;
+}
+ #footer .social-list a{
+     margin: 0px 8px;
+ }}
+/* Tablet */
+@media (min-width:  46.25em) and (max-width :  63.9375em){
+    #nav .subnav a {
+        padding: 5px 40px;
+    }  
+}
+
+/* Mobi */
+@media (max-width:46.1875em){
+.s-full-width{
+    width: 100% !important;
+}
+.s-col-full{
+        width: 100% !important;
+}
+.s-mt-8{
+    margin-top: 8px !important;
+}
+.btn{
+    -webkit-appearance: none;
+}
+#header .menu-btn{
+    display: block;
+}
+#header .search-button{
+   display: none;      
+}
+
+#header{
+   overflow: hidden;
+}
+#nav{
+    display: block;
+}
+#nav > li {
+    display: block;
+}
+#nav > li:first-child{
+display: inline-block;
+}
+#nav .subnav{
+    position: inherit;
+    background-color: #000;
+}
+#nav .subnav a{
+    color: #ccc;
+    padding: 5px 40px;
+}
+#content .member-item{
+   width: 100%;
+   margin-top: 31px;
+}
+#content .member-img{
+    width: 60%;
+}
+.contact-from {
+    margin-left: -8px;
+    margin-top: 16px;
+}
+.social-list {
+    font-size: 30px !important;
+}
+#footer .footer-letter{
+    font-size: 20px;
+    padding: 15px 0px;
+}
+}
